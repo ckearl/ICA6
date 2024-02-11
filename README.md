@@ -15,5 +15,65 @@ This ICA is about implementing SVGs and other visual HTML elements in a webpage.
  - [Shape Divider SVG Generator](https://www.shapedivider.app/)
 
 ---
-## 
+## SVG
+SVG stands for Scalable Vector Graphics. It is a image format for two-dimensional graphics with support for interactivity and animation. 
 
+There are many use cases for SVGs, some of the most common are:
+ - Logos
+ - Icons
+ - Illustrations
+ - Animations
+ - Backgrounds
+
+SVGs are a great way to add visual elements to a webpage. They are scalable, meaning they can be resized without losing quality. They are also lightweight, meaning they don't take up much space and don't require much computational power to render on a webpage.
+
+### SVG Syntax
+The SVG syntax is similar to HTML, but with some differences. The most important elements in SVG are:
+ - `<svg>`: The root element of an SVG document.
+ - `<rect>`: A rectangle.
+ - `<circle>`: A circle.
+ - `<ellipse>`: An ellipse.
+ - `<line>`: A line.
+ - `<polyline>`: A polyline.
+ - `<polygon>`: A polygon.
+ - `<path>`: A path.
+ - `<text>`: Text.
+ - `<g>`: A group of elements.
+
+`<path>` is the most powerful and flexible element in SVG. It can be used to create complex shapes and designs. It uses a special syntax to define the shape of the path.
+
+
+## Video
+The `<video>` element is used to embed video content in a webpage. It is a relatively new element, and is supported by all modern browsers. The `<video>` element has many attributes and methods that can be used to control the video, such as `autoplay`, `controls`, `loop`, `muted`, `play()`, `pause()`, `currentTime`, and many more.
+
+```html
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+  ```
+
+## Iframe
+The `<iframe>` element is used to embed another webpage into the current webpage. It is a powerful element that can be used to display content from other websites, such as maps, videos, and social media feeds. The `<iframe>` element has many attributes and methods that can be used to control the content, such as `src`, `width`, `height`, `sandbox`, `allow`, and many more.
+
+```html
+<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+```
+
+## :hover
+The `:hover` pseudo-class is one of many CSS pseudo-classes that can be used within CSS to modify styles in response to user actions. The `:hover` pseudo-class is used to apply styles to an element when the user hovers over it with the mouse. It is a powerful tool that can be used to create interactive and engaging user interfaces. The `:hover` pseudo-class can be used to change the color, size, position, and many other properties of an element when the user hovers over it.
+
+```css
+.button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: red;
+  color: white;
+}
+```
