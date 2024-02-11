@@ -3,6 +3,7 @@
 This ICA is about implementing SVGs and other visual HTML elements in a webpage. The goal is to implement these new elements in the base webpage.
 
 ## Instructions
+ There will be five tasks to complete in this ICA. Each task will require you to implement a new visual element in the base webpage. Each task is worth two points. The tasks are as follows:
  - Q1. Draw an svg logo and put it as the .header-logo div. Wrap the svg in an `<a>` with href referencing this page 
  - Q2. use a `<video>` to insert a video to autoplay. 
  - Q2 cont. Add paragraph text to the div below about the video you choose. 
