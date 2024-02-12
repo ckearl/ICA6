@@ -12,7 +12,7 @@ There will be five tasks to complete in this ICA. Each task will require you to 
 Draw an SVG logo in the color palette of the page. The logo should be a simple design, such as a letter or a shape. The logo should be placed in the div with the class of `.header-logo`. The logo should be wrapped in an `<a>` tag that links to the current page.
 
 > [!IMPORTANT]
-> It's often helpful to draw your own SVGs in separate documents and copying the code into your HTML. This will be the one time this semester that you'll need to draw an SVG by hand. Doing so will help you understand the syntax and structure of SVGs, especially when they are rendered differently on different sizes of browsers.
+> It's often helpful to draw your own SVGs in separate documents and copying the code into your HTML. Doing so will help you understand the syntax and structure of SVGs, especially when they are rendered differently on different sizes of browsers.
 
 ### Q2. Insert a `<video>`
 Insert a video into the webpage. The video should be placed in the div with the class of `.video`. The video should autoplay when the page is loaded. The video should be muted. The video should be a short clip, such as a few seconds long. There should be a caption tag below the video that describes the video.
